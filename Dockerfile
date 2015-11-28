@@ -1,2 +1,2 @@
 FROM nginx
-COPY sites-enabled /etc/nginx/sites-enabled
+COPY conf.d /etc/nginx/conf.d
